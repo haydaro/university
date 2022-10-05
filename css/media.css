@@ -1,0 +1,69 @@
+@media (min-width: 600px) {
+  .home .box {
+    max-width: 604px;
+  }
+}
+@media (max-width: 992px) {
+  .top ul img {
+    display: block;
+    cursor: pointer;
+  }
+  .top ul:not(:last-child) li {
+    display: none;
+  }
+  .home .boxs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .box {
+    max-width: 604px;
+  }
+  .home h3 {
+    margin: 13px 0px 3px 0px;
+  }
+  .home .one {
+    margin-bottom: 20px;
+  }
+  .home .cover {
+    text-align: center;
+  }
+  .home button {
+    margin: 7% 0% 0% 36%;
+  }
+  .flor .head,
+  .flor .head .boxs,
+  .flor .fott .boxs,
+  .end .boxs,
+  .about .center .plus,
+  .about .footer .boxs,
+  .pagination .boxs,
+  .badges .wtat,
+  .contact .plus {
+    flex-direction: column;
+  }
+  .flor .head .box img {
+    width: 400px;
+  }
+  .flor a,
+  .about .footer img {
+    display: block;
+  }
+  .about .center .left,
+  .badges .left,
+  .badges .right {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .flor .head .box img {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .blog .plus {
+    flex-direction: column;
+  }
+  .blog .plus .right {
+    margin-top: 0px;
+  }
+}
